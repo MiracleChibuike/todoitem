@@ -64,6 +64,7 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     background-color: #c6ebeb;
     border-radius: 7px;
+   
 }
 #taskname{
     color: #000;
@@ -118,5 +119,16 @@ body{
         margin-top: 20px;
         position: relative;
         right: 35px;
+    }
+    .tasks{
+        font-size: 13px;
+        font-weight: bold;
+        /* margin-top: 5px; */
+    }
+    #taskname{
+        margin-top: 5px;
+    }
+    #todoDate{
+        margin-top: 10px;
     }
 }
