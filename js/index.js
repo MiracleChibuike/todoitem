@@ -10,16 +10,22 @@ function enable() {
         </span>
         <input type="date" name="" id="todoDate">
         <button id="delete">
-        <i class="fa fa-trash-o" style="color: #fff;"></i>
+        <i class="fa fa-trash-o" style="color: #fff;" onclick="deleteTodo()"></i>
         </button>
     </div>
+      
         `
         document.querySelector(".newtask")
         ;
-        let currentTask = document.querySelectorAll("#delete");
+       
 
 
         
     }
     
+}
+
+function deleteTodo() {
+    let currentTask = document.querySelector(".tasks");
+    currentTask.remove()
 }
