@@ -81,7 +81,7 @@ body{
         margin: 2px;
         padding: 2px;
         overflow-y: hidden;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     body{
         overflow-y: hidden;
