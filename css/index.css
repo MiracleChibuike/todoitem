@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+    overflow-y: hidden;
+}
+body{
+    background-color: rgb(112, 112, 230);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+.main-container{
+    background-color: #fff;
+    /* width: 50%; */
+    height: 500px;
+    border-radius: 10px;
+    /* margin-left: 400px; */
+    margin-left: 50px;
+    
+  
+}
+.taskcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+#todo{
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 8px;
+    border: 2px solid rgb(230, 230, 230);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#add{
+    background-color: rgb(112, 112, 230);
+    color: #f5f5f5;
+    font-weight: bold;
+    border: 2px solid rgb(112, 112, 230);
+    width: 70px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.newtask{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 50px;
+    height: 400px;
+    position: relative;
+    margin-top: 10px;
+    position: relative;
+    right: 10px;
+}
+.tasks{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #c6ebeb;
+    border-radius: 7px;
+}
+#taskname{
+    color: #000;
+}
+#delete{
+    background-color: rgb(112, 112, 230);
+    border-radius: 7px;
+    border: 2px solid rgb(112, 112, 230);
+}
+#todoDate{
+    border: hidden;
+    height: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    background-color: #c6ebeb;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px) {
+    *{
+        margin: 2px;
+        padding: 2px;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .main-container{
+        width: 70%;
+        margin-top: 20px;
+        height: 600px;
+    }
+    .taskcontainer{
+        width: 100%;
+    }
+    #todo{
+        width: 171px;
+        height: 30px;
+    }
+    #add{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        left: 10px;
+    }
+    .newtask{
+        width: 90%;
+        height: 500px;
+        margin-top: 20px;
+        position: relative;
+        right: 35px;
+    }
+}
