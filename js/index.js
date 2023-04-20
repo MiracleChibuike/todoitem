@@ -16,11 +16,7 @@ function enable() {
       
         `
         document.querySelector(".newtask")
-        ;
-       
-
-
-        
+        ;  
     }
     
 }
