@@ -1,7 +1,7 @@
 
 function enable() {
     if (document.querySelector("#todo").value == 0) {
-        alert("Please enter a task")
+        alert("Please Enter a Task to Add")
     }else{
         document.querySelector(".newtask").innerHTML +=`
         <div class="tasks">
