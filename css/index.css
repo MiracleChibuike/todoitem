@@ -84,16 +84,18 @@ body{
         overflow-y: hidden;
     }
     body{
-        overflow-y: scroll;
+        overflow-y: hidden;
         overflow-x: hidden;
     }
     .main-container{
         width: 70%;
         margin-top: 20px;
         height: 600px;
+        overflow-x: hidden;
     }
     .taskcontainer{
         width: 100%;
+        overflow-x: hidden;
     }
     #todo{
         width: 171px;
@@ -103,7 +105,7 @@ body{
         width: 50px;
         height: 30px;
         position: relative;
-        left: 10px;
+        left: 6px;
     }
     .newtask{
         width: 90%;
