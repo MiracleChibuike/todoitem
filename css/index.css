@@ -43,6 +43,11 @@ body{
     border-radius: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#add:hover{
+    transition: all .7s;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .newtask{
     background-color: #fff;
     border-radius: 10px;
