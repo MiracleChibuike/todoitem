@@ -23,5 +23,6 @@ function enable() {
 
 function deleteTodo() {
     let currentTask = document.querySelector(".tasks");
-    currentTask.remove()
+    currentTask.remove();
+    // console.log(currentTask);
 }
